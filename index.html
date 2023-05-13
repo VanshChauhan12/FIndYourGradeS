@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="css.css"></head>
+<body>
+    <p id="screen">
+    <p id="BACKGROUND">FindYourGradeS</p>
+    </p>
+    <div id="fullstart">
+
+    <p id="menu">
+        <p id="classcheck">Pick how many classes you have:</p>
+        <button onclick="class1()" id="class1">1</button>
+        <button onclick="class2()" id="class2">2</button>
+        <button onclick="class3()" id="class3">3</button>
+        <button onclick="class4()" id="class4">4</button>
+        <button onclick="class5()" id="class5">5</button>
+        <button onclick="class6()" id="class6">6</button>
+        <p id="namecheck">Pick the names of your classes:</p>
+        <input maxlength="30" id="text1">
+        <input maxlength="30" id="text2">
+        <input maxlength="30" id="text3">
+        <input maxlength="30" id="text4">
+        <input maxlength="30" id="text5">
+        <input maxlength="30" id="text6">
+        <p id="colorcheck">Pick colors for your classes(options are:red,blue,yellow,orange,green,pink,purple,white</p>
+        <p id="colorcheck1"> type them in lowercase also any js color or hex will work heres a hex fider on the right)</p>
+        <input maxlength="30" id="color1">
+        <input maxlength="30" id="color2">
+        <input maxlength="30" id="color3">
+        <input maxlength="30" id="color4">
+        <input maxlength="30" id="color5">
+        <input maxlength="30" id="color6">
+        <p id="colored">Hex Color Picker: <input value="#3399FF80" data-jscolor="{}"></p>
+        <button id="done" onclick="done()">Done</button>
+        <p id="info">Hello my name is Vansh Chauhan and this is find your grades this website is pretty much a grade averager but it saves whatever grade you averaged so you can see how well you are doing in school or in a certain class also I want to give a huge thanks to http://jscolor.com they are the creator of the color picker so make sure to check them out.</p>
+    </p>
+</div>
+
+
+
+<p id="boxgrade0"></p>
+<p id="boxgrade1"></p>
+<p id="boxgrade2"></p>
+<p id="boxgrade3"></p>
+<p id="boxgrade4"></p>
+<p id="boxgrade5"></p>
+
+<div id = "average0"><button onclick="averagecheck(0,0)">average</button><input id = "average01">/<input id="average02"><p id="ae0"></p></div>
+<div id = "average1"><button onclick="averagecheck(2,1)">average</button><input id = "average11">/<input id="average12"><p id="ae1"></p></div>
+<div id = "average2"><button onclick="averagecheck(4,2)">average</button><input id = "average21">/<input id="average22"><p id="ae2"></p></div>
+<div id = "average3"><button onclick="averagecheck(6,3)">average</button><input id = "average31">/<input id="average32"><p id="ae3"></p></div>
+<div id = "average4"><button onclick="averagecheck(8,4)">average</button><input id = "average41">/<input id="average42"><p id="ae4"></p></div>
+<div id = "average5"><button onclick="averagecheck(10,5)">average</button><input id = "average51">/<input id="average52"><p id="ae5"></p></div>
+    <button id="reset" onclick="reset()">Reset</button>
+    <button id="save" onclick="save()">Save</button>
+    <div>
+        <script type="text/javascript" src="js.js"></script>
+        
+
+    </div>
+</body>
+
+<script src="jscolor.js"></script>
+
+</html>

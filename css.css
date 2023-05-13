@@ -1,0 +1,284 @@
+#BACKGROUND {
+    position: absolute;
+    top: 0%;
+    left: 0px;
+    margin: 0%;
+ 
+    height: 300px;
+    width: 1366px;
+    text-align: center;
+    font-size: 700%;
+}
+
+
+
+
+#menu{
+    background-color: whitesmoke;
+    border: 5px solid black;
+    position: absolute;
+    height: 300px;
+    width: 566px;
+    top: 300px;
+    left: 400px;
+}
+
+#done{
+    position: absolute;
+    top: 600px;
+    left: 923px;
+
+}
+#reset{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+
+
+}
+
+#save{
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    
+
+
+}
+
+#classcheck{
+    color: black;
+    position: absolute;
+    top: 305px;
+    left: 410px;
+}
+
+#class1{
+    position: absolute;
+    top: 350.3px;
+    left: 406px;
+    width: 94.3px;
+    height: 50px;
+    font-size: 40px;
+}
+
+#class2{
+    position: absolute;
+    top: 350.3px;
+    left: 500.3px;
+    width: 94.3px;
+    height: 50px;
+    font-size: 40px;
+}
+#class3{
+    position: absolute;
+    top: 350.3px;
+    left: 594.6px;
+    width: 94.3px;
+    height: 50px;
+    font-size: 40px;
+}
+#class4{
+    position: absolute;
+    top: 350.3px;
+    left: 688.9px;
+    width: 94.3px;
+    height: 50px;
+    font-size: 40px;
+}
+#class5{
+    position: absolute;
+    top: 350.3px;
+    left: 783.3px;
+    width: 94.3px;
+    height: 50px;
+    font-size: 40px;
+}
+#class6{
+    position: absolute;
+    top: 350.3px;
+    left: 877.6px;
+    width: 94.3px;
+    height: 50px;
+    font-size: 40px;
+}
+
+#namecheck{
+    color: black;
+    position: absolute;
+    top: 400px;
+    left: 410px;
+}
+
+#text1{
+    position: absolute;
+    top: 450px;
+    left: 416px;
+    width: 87px;
+}
+#text2{
+    position: absolute;
+    top: 450px;
+    left: 503px;
+    width: 87px;
+}
+#text3{
+    position: absolute;
+    top: 450px;
+    left: 590px;
+    width: 87px;
+}
+#text4{
+    position: absolute;
+    top: 450px;
+    left: 672px;
+    width: 87px;
+}
+#text5{
+    position: absolute;
+    top: 450px;
+    left: 759px;
+    width: 87px;
+}
+#text6{
+    position: absolute;
+    top: 450px;
+    left: 846px;
+    width: 87px;
+}
+
+#colorcheck{
+    color: black;
+    position: absolute;
+    top: 460px;
+    left: 410px;
+}
+#colorcheck1{
+    color: black;
+    position: absolute;
+    top: 490px;
+    left: 410px;
+}
+
+#color1{
+    position: absolute;
+    top: 530px;
+    left: 416px;
+    width: 87px;
+}
+#color2{
+    position: absolute;
+    top: 530px;
+    left: 503px;
+    width: 87px;
+}
+#color3{
+    position: absolute;
+    top: 530px;
+    left: 590px;
+    width: 87px;
+}
+#color4{
+    position: absolute;
+    top: 530px;
+    left: 672px;
+    width: 87px;
+}
+#color5{
+    position: absolute;
+    top: 530px;
+    left: 759px;
+    width: 87px;
+}
+#color6{
+    position: absolute;
+    top: 530px;
+    left: 846px;
+    width: 87px;
+}
+
+#boxgrade0{
+    position: absolute;
+    height: 100px;
+    width: 1330px;
+    top: 320px;
+    left: 0px;
+    background-color: red;
+}
+
+#boxgrade1{
+    position: absolute;
+    height: 100px;
+    width: 1330px;
+    top: 430px;
+    left: 0px;
+    background-color: green;
+}
+
+#boxgrade2{
+    position: absolute;
+    height: 100px;
+    width: 1330px;
+    top: 540px;
+    left: 0px;
+    background-color: purple;
+}
+
+#boxgrade3{
+    position: absolute;
+    height: 100px;
+    width: 1330px;
+    top: 650px;
+    left: 0px;
+    background-color: orange;
+}
+
+#boxgrade4{
+    position: absolute;
+    height: 100px;
+    width: 1330px;
+    top: 760px;
+    left: 0px;
+    background-color: blue;
+}
+
+#boxgrade5{
+    position: absolute;
+    height: 100px;
+    width: 1330px;
+    top: 870px;
+    left: 0px;
+    background-color: yellow;
+}
+
+#average0{position: absolute;top: 360px;}#average01{width: 20px;}#average02{width: 20px;}
+
+#average1{position: absolute;top: 470px;}#average11{width: 20px;}#average12{width: 20px;}
+
+#average2{position: absolute;top: 580px;}#average21{width: 20px;}#average22{width: 20px;}
+
+#average3{position: absolute;top: 690px;}#average31{width: 20px;}#average32{width: 20px;}
+
+#average4{position: absolute;top: 800px;}#average41{width: 20px;}#average42{width: 20px;}
+
+#average5{position: absolute;top: 910px;}#average51{width: 20px;}#average52{width: 20px;}
+
+canvas {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 200px;
+    top: 1000px;
+  }
+
+  #colored{
+    position: absolute;
+    top: 300px;
+    right: 0px;
+  }
+
+  #info{
+    position: absolute;
+    top: 300px;
+    width: 350px;
+  }
